@@ -23,7 +23,7 @@
                 this.disconnect();
                 main();
             }
-        })
+        });
         observer.observe(document, {
             childList: true,
             subtree: true
@@ -52,4 +52,3 @@
         element.setAttribute('onclick', element.getAttribute('onclick').replace('(', `('${app}'`));
     }
 })();
-
