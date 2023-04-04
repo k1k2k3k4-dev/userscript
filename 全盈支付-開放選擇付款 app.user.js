@@ -52,3 +52,4 @@
         element.setAttribute('onclick', element.getAttribute('onclick').replace('(', `('${app}'`));
     }
 })();
+
