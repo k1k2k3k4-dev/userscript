@@ -35,7 +35,7 @@
         fm.style.margin = '5px 0px';
         const smartdaily = fm.parentElement.appendChild(fm.cloneNode());
         const stayfun = fm.parentElement.appendChild(fm.cloneNode());
-        editElement(fm, 'fm', '全家');
+        editElement(fm, 'fm', '全家（或系統指定之 app）');
         editElement(smartdaily, 'smartdaily', '智生活');
         editElement(stayfun, 'stayfun', 'STAYFUN');
         window.callScheme = new Function('app',
