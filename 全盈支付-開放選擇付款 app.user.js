@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         全盈支付-開放選擇付款 app
 // @namespace    https://github.com/k1k2k3k4-dev
-// @version      0.3
+// @version      0.4
 // @description  原本全盈支付網頁的開啟順序是先開啟全家 app，如果找不到全家 app，就會再開啟智生活 app，這導致智生活的用戶必須先卸載全家 app 才能順利開啟。這個 UserScript 可以解決這個問題，讓用戶可以自由選擇要使用哪一個 app 付款。
 // @author       k1k2k3k4-dev
 // @match        https://payment.pluspay.com.tw/payment/QRCode/*
